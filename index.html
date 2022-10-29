@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>MyBooklist App</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/908c8767f4.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <main id="container" class="w-auto px-2">
+      <!-- Header -->
+        <div class="text-center p-3 display-3">
+          <object class="row float-end pt-2" data="./moon.svg" width="29px" height="29px"></object>
+          <i class="fas fa-book-open text-info"></i> 
+          My<span class="text-info">Book</span>List
+        </div>
+        <div class="px-5"> 
+        <!-- Message Display -->
+        <div class="msg"></div>
+
+        <!-- Form -->
+        <form id="form text-start">
+          <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" class="form-control" id="title">
+          </div>
+          <div class="mb-3">
+            <label for="author" class="form-label">Author</label>
+            <input type="text" class="form-control" id="author">
+          </div>
+          <div class="mb-3">
+            <label for="isbn#" class="form-label">ISBN#</label>
+            <input type="text" class="form-control" id="isbn#">
+          </div>
+          <div class="col-2">
+            <button type="submit" class="btn btn-info text-white">Add Book</button>
+          </div>
+        </form>
+
+        <!-- Table -->
+        <div class="table-responsive">
+        <table class="table table-striped mt-5 ">
+          <thead class="border-top border-bottom ">
+              <th scope="col">Title</th>
+              <th scope="col">Author</th>
+              <th scope="col">ISBN#</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <!-- <td><span class="material-symbols-outlined text-bg-danger py-2 px-1">
+                cancel
+                </span></td> -->
+              <td><span class="material-symbols-outlined text-bg-danger py-2 px-1 ">
+                close
+                </span></td>
+              <!-- <td><i class="fa fa-times text-bg-danger p-2" aria-hidden="true"></i></td> -->
+            </tr>
+            <tr>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
